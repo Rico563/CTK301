@@ -1,23 +1,39 @@
-/* This is not visible */
-/*
-p {
- color: #ff0000;
- background-color: #003366;
-}
-*/
 h1{
   color: #FFFFFF;
   background-color: #4287f5;
 }
 
+h2{
+  color: #ffffff;
+  background-color: #FFFF00
+}
+
+h3{
+  color: #00FF00;
+  background-color: #0000FF;
+}
 a {
  color: #ff0000;
  text-decoration: none;
 }
 
+p{
+ color: #ff00ff;
+ background-color: #00ffff;
+}
+
+#specialid {
+  color: #00FF00;
+  background-color: #000000;
+}
+
+#divexample {
+  color: #0000FF;
+background-color: #FFFF00;
+}
 
 a:hover {
- color: #0000FF;
+ color: #FFFF00;
  text-decoration: underline;
 }
 
@@ -25,15 +41,14 @@ a:hover {
   color: #00FF00;
 }
 
-#divexample{
-  color: #0000FF;
-  background-color: #FFFF00;
-}
+a:visited {
+ color: #00FF00;
 
-#specialid {
-  color: #00FF00;
-  background-color: #000000;
-}
+ #divexample {
+   color: #0000FF;
+ background-color: #FFFF00;
+ }
+
 .specialp {
  color: #00FF00;
  background-color: #FFFFFF;
@@ -43,4 +58,3 @@ a:hover {
 footer{
   color: #ffffff;
   background-color: #FF0000;
-}
