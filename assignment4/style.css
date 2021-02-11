@@ -1,0 +1,32 @@
+
+h1 {
+  color: #FFA500;
+  font-style: italic;
+  font-weight: normal;
+}
+
+body{
+  background-image: url(Redbird.jpeg);
+  background-repeat: repeat;
+  background-position: center center;
+}
+
+.customtext{
+  font-family: sans-serif;
+}
+
+.textcenter{
+  text-align: center;
+}
+
+.textjustify {
+text-align: justify;
+}
+
+.imgbox{
+  border: 15px solid #000000;
+  padding: 10px;
+  background-color: #FFFFFF;
+  margin: 20px 20px 0 0;
+  width: 200px;
+}
