@@ -1,0 +1,148 @@
+body {
+  background-color: #808080;
+  font-family: Helvetica;
+  text-decoration-color: #00479f;
+}
+
+h1 {
+  font-weight: normal;
+  font-style: italic;
+  font-size: 36px;
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  font-weight: normal;
+}
+
+#wrapper {
+  margin: 1em auto;
+  padding: 0;
+  width: 960px;
+  border: 5px solid #00479f;
+  background-color: #ffffff;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: 100px 50px auto 120px;
+}
+
+header {
+  grid-column: span 12;
+}
+
+nav {
+  grid-column: span 12;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+a{
+  font-weight: bold;
+}
+
+nav li {
+  float: left;
+  margin: 0 90px 0 0;
+  padding: 0;
+  width: 150px;
+  color: #ffffff;
+  background-image: linear-gradient(to bottom, #0088e6, #0077d4, #0067c3, #0057b1, #00479f);
+}
+
+nav li a {
+  color: #6bd1ff;
+  padding: 10px;
+  width: 220px;
+  display: block;
+  background-color: #cc0000;
+  text-decoration: none;
+  background-image: linear-gradient(to bottom, #0088e6, #0077d4, #0067c3, #0057b1, #00479f);
+  font-family: sans-serif;
+  font-size: 20px;
+}
+
+nav li a:hover {
+  background-color: #660000;
+  background-image: linear-gradient(to top, #0084e3, #0077d5, #006bc7, #005eb9, #0052ab);
+}
+
+h1 a {
+  color: #6bd1ff;
+  padding: 30px 30px 30px 30px;
+  width: 0 920px 0 0;
+  display: block;
+  font-weight: normal;
+  background-color: #cc0000;
+  text-decoration: none;
+  background-image: linear-gradient(to bottom, #0088e6, #0077d4, #0067c3, #0057b1, #00479f);
+}
+
+li{
+  background-image: linear-gradient(to bottom, #0084e3, #0077d5, #006bc7, #005eb9, #0052ab);
+
+}
+
+h1 a:hover {
+  background-color: #660000;
+  background-image: linear-gradient(to top, #0084e3, #0077d5, #006bc7, #005eb9, #0052ab);
+}
+
+main {
+  grid-column: span 12;
+  padding: 0 30px 0 30px;
+}
+
+footer {
+  grid-column: span 12;
+  border-top: 5px solid #00479f;
+  background-color: #d01d00;
+}
+
+.you{
+  text-align: justify;
+  font-weight: bold;
+}
+
+.me{
+  color: #00479f;
+  border-bottom: 3px solid #00479f;
+}
+
+.Har {
+  border: 3px solid #0000ff;
+  margin: 0 20px 20px 0;
+  padding: 0;
+  float: left;
+}
+
+.Fam{
+  border: 3px solid #0000ff;
+  margin: 0 0 20px 20px;
+  padding: 0;
+  float: right;
+}
+
+.Sib{
+  border: 3px solid #0000ff;
+  margin: 10px;
+  padding: 0;
+}
+
+.characters{
+  color: #d01d00;
+  font-weight: bold;
+}
+
+.floatimage {
+  margin: 0;
+  padding: 10px;
+  float: left;
+}
