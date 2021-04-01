@@ -10,7 +10,6 @@ body {
   background-color: #ffffff;
   display: grid;
   grid-template-columns: repeat(12, 1fr);
-  grid-column-gap: 24px;
 }
 
 .dummycolumn {
@@ -19,13 +18,12 @@ body {
 }
 
 header {
-  grid-column: span 11;
+  grid-column: span 12;
   background-image: linear-gradient(to bottom, #d53232, #b42a2b, #932223, #741b1c, #561414);
   color: #CBBFBF;
   font-family: Georgia, sans-serif;
   font-size: 28px;
-  padding-left: 244px;
-  margin-left: 102px;
+  text-align: center;
 }
 
 nav{
@@ -38,7 +36,7 @@ nav li {
   float: left;
   margin: 0 24px 0 0;
   padding: 24px 0 0 0;
-  width: 280px;
+  width: 275px;
   text-align: center;
 }
 
