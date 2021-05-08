@@ -1,13 +1,13 @@
 body {
-  background-color: #999999;
+  background-image: linear-gradient(to top, #d5ab1f, #e77728, #e43b4a, #c50070, #830d91);
 }
 
 #wrapper {
   margin: 24px auto;
   width: 1200px;
-  border: 1px solid black;
+  /* border: 1px solid black; */
   padding: 24px;
-  background-color: #ffffff;
+  background-color: #EDE5E5;
   display: grid;
   grid-template-columns: repeat(12, 1fr);
 }
@@ -19,8 +19,8 @@ h1 {
 
 header {
   grid-column: span 12;
-  background-image: linear-gradient(to bottom, #d53232, #b42a2b, #932223, #741b1c, #561414);
-  color: #CBBFBF;
+  background-image: linear-gradient(to top, #d5ab1f, #e77728, #e43b4a, #c50070, #830d91);
+  color: #E4E6CA;
   font-family: 'Noto Serif', serif;
   font-size: 28px;
   text-align: center;
@@ -50,7 +50,7 @@ nav ul {
 
 nav ul a {
   display: block;
-  background-image: linear-gradient(to bottom, #d53232, #b42a2b, #932223, #741b1c, #561414);
+  background-color: #D5AB1F;
   color: #CBBFBF;
   font-family: 'Noto Serif', serif;
   font-size: 28px;
@@ -61,13 +61,13 @@ nav ul a {
 }
 
 nav li a {
-  color: #CBBFBF;
-  transition: background-color 2s, color 0.5s;
+  color: #E4E6CA;
+  transition: background-color 1s, color 1s;
 }
 
 nav li a:hover {
-  background-image: linear-gradient(to top, #d53232, #b42a2b, #932223, #741b1c, #561414);
-  color: #000000;
+  background-color: #CC7805;
+  color: #E4E6CA;
 }
 
 main {
@@ -82,9 +82,9 @@ main {
 
 footer {
   grid-column: span 12;
-  background-image: linear-gradient(to bottom, #00ff31, #21d927, #28b41f, #289118, #246f12);
+  background-image: linear-gradient(to top, #0c4bb1, #3f4bc3, #6746d2, #8e3add, #b61fe3);
   font-family: Georgia, sans-serif;
-  font-size: 24px;
+  font-size: 16px;
   font-style: italic;
   text-align: center;
   padding: 36px 0 36px 0;
@@ -115,7 +115,7 @@ audio {
   padding: 12px;
   margin: 36px 0 36px 84px;
   border: 0px solid red;
-  background-color: #ccc;
+  background-color: #E0DDCF;
   border-top-left-radius: 20px;
   border-bottom-right-radius: 10px;
   box-shadow: 10px 10px 10px #666;
